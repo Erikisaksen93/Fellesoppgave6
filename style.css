@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+* {
+    font-family: 'Cinzel', serif;
+}
+
+.player {
+position: absolute;
+bottom: 30px;
+left: 600px;
+}
+
+.npc {
+position: absolute;
+bottom: 30px;
+left: 1000px;
+}
+
+.animations {
+    position: absolute;
+    bottom: 50px;
+    left: 35%;
+}
+
+body {
+    background-image: url(./animations/background.jpg);
+}
+#versus {
+    position: absolute;
+    height: auto;
+    width: 150px;
+    top: 90%;
+    left: 35%;
+
+}
+/* progress {
+    -webkit-appearance: progress-bar;
+    box-sizing: border-box;
+    display: inline block;
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    color: white;
+} */
+
+.playerChoice{
+    position: absolute;
+    bottom: 50px;
+    left: 5%;
+}
+.playerChoice button{
+    height: 50px;
+    font-size: 20px;
+}
+
+progress {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+     appearance: none;
+  
+    width: 250px;
+    height: 20px;
+  }
+
+progress::-webkit-progress-bar {
+    background-color: red;
+}
+
+
+
+.announcer{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 30%;
+}
+
+#play_again {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 50px;
+    bottom: 50px;
+    border: solid 2px black;
+    border-radius: 50%;
+    color: black;
+    /* background-color: green; */
+    font-size: 20px;
+}

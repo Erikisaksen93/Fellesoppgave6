@@ -1,0 +1,28 @@
+Pivot animations
+    3 attacks for both player and NPC
+ 
+HP bars in top left and right
+    left for player
+    right for NPC
+       
+Background image
+    (fightscene)
+
+Stats and info on playerSelected
+    3 player characters
+    one with higher attack
+    one with higher health / takes less damage
+    one with higher crit chance (crit is to deal 2x damage)
+
+Buttons for attacks
+    low
+    mid
+    high
+
+JS object containing objects for all 3 characters and underlying stats and description
+
+Winnerscreen
+    Message pops up if the player or NPC wins
+
+Styling
+    CSS
